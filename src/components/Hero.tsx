@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import miaImage from "@/assets/images/mia.png";
 export default function Hero() {
   return (
-    <section className="w-full pt-20 min-h-screen">
+    <section className="w-full min-h-screen">
       <div className="bg-muted grid items-center gap-8 lg:grid-cols-2 w-full min-h-[80vh] py-16">
         <div className="flex flex-col items-center p-16 text-center lg:items-start lg:text-left">
           <p>New Release</p>
