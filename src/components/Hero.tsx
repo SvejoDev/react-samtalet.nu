@@ -6,21 +6,23 @@ export default function Hero() {
     <section className="w-full min-h-screen">
       <div className="bg-muted grid items-center gap-8 lg:grid-cols-2 w-full min-h-[80vh] py-16">
         <div className="flex flex-col items-center p-16 text-center lg:items-start lg:text-left">
-          <p>New Release</p>
+          <p>Mia Svensson</p>
           <h1 className="my-6 text-pretty text-4xl font-bold lg:text-6xl">
-            Welcome to Our Website
+            Välkommen till Samtalet.nu
           </h1>
-          <p className="text-muted-foreground mb-8 max-w-xl lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Elig
-            doloremque mollitia fugiat omnis! Porro facilis quo animi
-            consequatur. Explicabo.
+          <p className="text-muted-foreground mb-8 max-w-xxl lg:text-xl">
+            Söker du efter någon att samtala med om sådant som skaver inom dig,
+            som är jobbigt och tungt och som behöver sättas ord på? <br /> Samtalet.nu
+            erbjuder digitala individuella kurativa, reflekterande, stödjande
+            samtal där även lyssnandet från mig som samtalspartner har en viktig
+            funktion.
           </p>
           <div className="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start">
             <Button>
-              Primary
+              Boka ditt samtal här
               <ArrowRight className="size-4" />
             </Button>
-            <Button variant="outline">Secondary</Button>
+            <Button variant="outline">Läs mer om mig</Button>
           </div>
         </div>
         <div className="flex justify-center items-center p-8">
