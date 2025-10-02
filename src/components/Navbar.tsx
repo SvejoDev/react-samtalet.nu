@@ -11,27 +11,24 @@ export default function Navbar() {
       <NavigationMenu className="flex justify-center items-center">
         <NavigationMenuList className="flex gap-6">
           <NavigationMenuItem>
-            <NavigationMenuLink href="/" className="text-lg ">
+            <NavigationMenuLink href="#samtalet">
               Samtalet och Lyssnandet
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuLink href="/viktigt">
-              VIKTIGT ATT VETA OM SAMTALET.NU
+            <NavigationMenuLink href="#viktigt">
+              Viktigt att veta om Samtalet.nu
             </NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuLink href="/om-mig">OM MIG</NavigationMenuLink>
+            <NavigationMenuLink href="#om-mig">Om mig</NavigationMenuLink>
           </NavigationMenuItem>
 
           <NavigationMenuItem>
-            <NavigationMenuLink
-              href="/boka"
-              className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90"
-            >
-              BOKA DITT SAMTAL HÄR
+            <NavigationMenuLink href="#boka">
+              boka ditt samtal här
             </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
