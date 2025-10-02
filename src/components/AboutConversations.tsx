@@ -5,13 +5,12 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion";
 import { Separator } from "@/components/ui/separator";
-import { Badge } from "@/components/ui/badge";
 
 export default function AboutConversations() {
   return (
     <section
       id="about-conversations"
-      className="w-full min-h-screen bg-gradient-to-b from-background to-muted/20 py-16 lg:py-24"
+      className="w-full min-h-screen bg-gradient-to-b from-background to-muted/20 py-16 lg:py-10"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header Section */}

@@ -71,11 +71,11 @@ export default function Navbar() {
           <div
             className={`md:hidden ${
               isMobileMenuOpen
-                ? "max-h-screen opacity-100"
-                : "max-h-0 opacity-0"
+                ? "max-h-screen opacity-100 pointer-events-auto"
+                : "max-h-0 opacity-0 pointer-events-none"
             }`}
           >
-            <div className="px-4 py-4 bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl mx-4 mt-3 shadow-xl">
+            <div className="px-4 py-4 bg-white/20 backdrop-blur-md border border-white/30 rounded-2xl mx-4 mt-3 shadow-xl overflow-hidden">
               <div className="space-y-2">
                 {menuItems.map((item) => (
                   <a
