@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import miaImage from "@/assets/images/mia.png";
 export default function Hero() {
   return (
-    <section className="w-full min-h-screen overflow-hidden">
+    <section className="w-full overflow-hidden">
       <div className="bg-muted grid items-center gap-8 lg:grid-cols-2 w-full min-h-[80vh] py-16 px-4 sm:px-8 lg:px-16">
         <div className="flex flex-col items-center p-4 sm:p-8 lg:p-16 text-center lg:items-start lg:text-left">
           <p>Mia Svensson</p>
