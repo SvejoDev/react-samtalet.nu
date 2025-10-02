@@ -22,7 +22,7 @@ export default function Navbar() {
     { href: "#samtalet", label: "Samtalet och Lyssnandet" },
     { href: "#viktigt", label: "Viktigt att veta om Samtalet.nu" },
     { href: "#om-mig", label: "Om mig" },
-    { href: "#boka", label: "boka ditt samtal här" },
+    { href: "#boka", label: "Boka ditt samtal här" },
   ];
 
   return (
