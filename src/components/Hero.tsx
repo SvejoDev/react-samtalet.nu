@@ -12,7 +12,7 @@ export default function Hero() {
           </h1>
           <p className="text-muted-foreground mb-8 max-w-xxl lg:text-xl">
             Söker du efter någon att samtala med om sådant som skaver inom dig,
-            som är jobbigt och tungt och som behöver sättas ord på? <br /> Samtalet.nu
+            som är jobbigt och tungt och som behöver sättas ord på? Samtalet.nu
             erbjuder digitala individuella kurativa, reflekterande, stödjande
             samtal där även lyssnandet från mig som samtalspartner har en viktig
             funktion.
